@@ -14,7 +14,7 @@ import Fullview from '../components/fullview2.vue';
           <div class="title_text_item"><img src="./s5/en_title.svg" alt="title"></div>
           <div class="title_text_item hidden md:block"><img src="./s5/cn_title.svg" alt="title"></div>
         </div>
-        <div class="cn_title block md:hidden"><img src="./s5/cn_title.svg" alt="title"></div>
+        <div class="cn_title block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="./s5/cn_title.svg" alt="title"></div>
       </div>
       <div class="logo">
         <img src="./s5/logo1.svg" alt="logo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -26,22 +26,22 @@ import Fullview from '../components/fullview2.vue';
         <img src="./s5/logo7.svg" alt="logo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
         <img src="./s5/logo8.svg" alt="logo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
       </div>
-      <div class="text">
+      <div class="text font-['Noto_Sans_TC'] text-[#666]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         麗晶相信“建材”是日常觸感的核心，【麗晶ONE】嚴選世界級精品建材，透過高品質設備，實現安全、舒適又高效的居住空間，本案採用WAFERLOCK華豐安鎖系統，開門更省力省時。衛浴設備嚴選TOTO、Villeroy &
         Boch、GROHE，觸感細緻、材質高級，兼具美觀、易清潔與耐用性，為生活添增質感。
       </div>
       <div class="pic">
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s5/pic1.webp" alt="pic">
-          <p>建材示意圖，僅供參考</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
         </div>
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
           <img src="./s5/pic2.webp" alt="pic">
-          <p>建材示意圖，僅供參考</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
         </div>
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
           <img src="./s5/pic3.webp" alt="pic">
-          <p>建材示意圖，僅供參考</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
         </div>
       </div>
 
@@ -58,12 +58,12 @@ import Fullview from '../components/fullview2.vue';
         </div>
 
         <div class="author_text">
-          <p class="text-[#fff]">建築師</p>
-          <h2 class="font-['Noto_Serif_TC'] text-[#D46856]">林子森 <span>Tzu-Sen Lin</span></h2>
-          <ul>
-            <li class="text-[#fff]">成功大學建築學士</li>
-            <li class="text-[#fff]">成功大學建築碩士</li>
-            <li class="text-[#fff]">台灣註冊建築師</li>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">建築師</p>
+          <h2 class="font-['Noto_Serif_TC'] text-[#D46856]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">林子森 <span>Tzu-Sen Lin</span></h2>
+          <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <li class="font-['Noto_Sans_TC'] text-[#fff]">成功大學建築學士</li>
+            <li class="font-['Noto_Sans_TC'] text-[#fff]">成功大學建築碩士</li>
+            <li class="font-['Noto_Sans_TC'] text-[#fff]">台灣註冊建築師</li>
           </ul>
         </div>
       </div>
@@ -155,7 +155,6 @@ import Fullview from '../components/fullview2.vue';
     .text {
       font-weight: 400;
       letter-spacing: 0%;
-      color: #666666;
       font-size: size-m(13);
       line-height: size-m(22);
       margin-bottom: size-m(30);
@@ -204,7 +203,6 @@ import Fullview from '../components/fullview2.vue';
           line-height: 100%;
           font-weight: 400;
           text-align: center;
-          color: #fff;
 
           @media screen and (min-width: 768px) {
             bottom: size(10);

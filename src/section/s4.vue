@@ -14,38 +14,40 @@ import Fullview from '../components/fullview2.vue';
           <div class="title_text_item"><img src="./s4/en_title.svg" alt="title"></div>
           <div class="title_text_item hidden md:block"><img src="./s4/cn_title.svg" alt="title"></div>
         </div>
-        <div class="cn_title block md:hidden"><img src="./s4/cn_title.svg" alt="title"></div>
+        <div class="cn_title block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="./s4/cn_title.svg" alt="title"></div>
       </div>
 
       <div class="content">
         <div class="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s4/pic01.webp" alt="pic">
-          <p>萬丹路商圈</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">萬丹路商圈</p>
         </div>
         <div class="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s4/pic02.webp" alt="pic">
-          <p>萬丹夜市</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">萬丹夜市</p>
         </div>
-        <div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <div class="text font-['Noto_Sans_TC'] text-[#666]" data-aos="fade-up" data-aos-duration="1000"
+          data-aos-delay="500">
           【麗晶ONE】位處大高屏核心地段，近享產業園區就業之便、逕取百業匯聚繁華之利、靜擁大面積豪景自然植感，最適居的環境、最優質的品牌、最值得您珍藏的臨路電梯名墅，進階人生就趁現在！
         </div>
         <div class="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s4/pic03.webp" alt="pic">
-          <p>萬丹公園</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">萬丹公園</p>
         </div>
         <div class="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s4/pic04.webp" alt="pic">
-          <p>萬丹運動休閒公園</p>
+          <p class="font-['Noto_Sans_TC'] text-[#fff]">萬丹運動休閒公園</p>
         </div>
       </div>
 
       <!-- 引用元件 -->
       <div class="map">
-        <div class="map_title block md:hidden">
+        <div class="map_title block md:hidden font-['Noto_Serif_TC'] text-[#7D272B]">
           左右滑動可看全圖
         </div>
         <Fullview class="block md:hidden" />
         <img class="pc_pic hidden md:block" src="./s4/map.webp" alt="pic">
+        <p class="font-['Noto_Sans_TC'] text-[#fff]">環境示意圖，僅供參考</p>
       </div>
 
     </div>
@@ -53,11 +55,11 @@ import Fullview from '../components/fullview2.vue';
     <div class="pic_content">
       <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img src="./s4/img01.webp" alt="pic">
-        <p>建材示意圖，僅供參考</p>
+        <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
       </div>
       <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img src="./s4/img02.webp" alt="pic">
-        <p>建材示意圖，僅供參考</p>
+        <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
       </div>
     </div>
 
@@ -176,20 +178,41 @@ import Fullview from '../components/fullview2.vue';
     }
 
     .map {
+      position: relative;
       margin-top: size-m(10);
+
       @media screen and (min-width: 768px) {
-      margin-top: size(15);
+        margin-top: size(15);
       }
-      .map_title{
+
+      p {
+        background-color: #000;
+        font-weight: 400;
+        line-height: 1;
+        font-size: size-m(12);
+        letter-spacing: size-m(0.16);
+        padding: size-m(5) size-m(10);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+
+        @media screen and (min-width: 768px) {
+          font-size: size(15);
+          letter-spacing: size(0.16);
+          padding: size(5) size(10);
+        }
+      }
+
+      .map_title {
         margin-bottom: size-m(15);
-        font-family: Noto Serif TC;
         text-align: center;
-        color: #7D272B;
         font-weight: 700;
         font-size: size-m(18);
         line-height: 1;
         letter-spacing: 0;
       }
+
       .pc_pic {
         width: 100%;
       }

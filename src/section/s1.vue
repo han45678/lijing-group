@@ -16,7 +16,7 @@
 
 .s1 {
   position: relative;
-  background-image: url(/section/s1/bg.webp);
+  // background-image: url(/section/s1/bg.webp);
   height: calc(100vh - 63px);
   min-height: size-m(604);
   max-height: size-m(750);

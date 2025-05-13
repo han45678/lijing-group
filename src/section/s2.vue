@@ -1,7 +1,7 @@
 <template>
   <article class="s2" id="s2">
     <Fullview />
-    <div class="text">環境空拍經電腦合成示意圖，僅供參考</div>
+    <div class="text font-['Noto_Sans_TC'] text-[#fff]">環境空拍經電腦合成示意圖，僅供參考</div>
   </article>
 </template>
 
@@ -30,7 +30,6 @@
     line-height: 1;
     letter-spacing: size-m(0.16);
     background-color: #000;
-    color: #fff;
     position: absolute;
     bottom: 0;
     right: 0;

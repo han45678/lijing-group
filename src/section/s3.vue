@@ -10,9 +10,9 @@
           <div class="title_text_item"><img src="./s3/en_title.svg" alt="title"></div>
           <div class="title_text_item hidden md:block"><img src="./s3/cn_title.svg" alt="title"></div>
         </div>
-        <div class="cn_title block md:hidden"><img src="./s3/cn_title.svg" alt="title"></div>
+        <div class="cn_title block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="./s3/cn_title.svg" alt="title"></div>
       </div>
-      <div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <div class="text font-['Noto_Sans_TC'] text-[#666]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         屏東的未來，透過政府國土規劃，平衡區域發展，以南方半導體S廊帶，反轉南部產業；便捷快速的交通串連高、屏兩地，建構大高屏生活圈！<br>
         過去全台科學園區與高鐵站區所造就的房市效應經驗，有目共睹！而屏東科學園區＋高鐵站區的雙重價值，全台唯一，造就麗晶ONE更值得您盡快收藏！
       </div>
@@ -22,7 +22,7 @@
 
     <div class="pic">
       <img src="./s3/bigPic.webp" alt="pic">
-      <p>外觀3D示意圖，僅供參考，實際以完工為主</p>
+      <p class="font-['Noto_Sans_TC'] text-[#fff]">外觀3D示意圖，僅供參考，實際以完工為主</p>
     </div>
 
   </article>

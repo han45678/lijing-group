@@ -184,11 +184,11 @@ const send = () => {
   <!--  2025-5-6宜娟進化版 -->
   <div id="order" class="order relative text-center">
 
-    <div>
-      <img src="./order/map.webp" alt="pic">
-      <img class="hidden md:block" src="./order/txt.webp" alt="pic">
-      <img class="block md:hidden" src="./order/txt_m.webp" alt="pic">
-      <img src="./order/title.webp" alt="pic">
+    <div class="order_pic">
+      <img class="map" src="./order/map.webp" alt="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <img class="txt hidden md:block" src="./order/txt.webp" alt="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <img class="txt block md:hidden" src="./order/txt_m.webp" alt="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <img class="title" src="./order/title.webp" alt="pic" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
     </div>
     <div class="order-section">
       <div class="order-title text-center" v-if="info.order.title">
@@ -315,7 +315,31 @@ const send = () => {
   // background: linear-gradient(to bottom, #195c45, #000704);
 
 
-
+  .order_pic{
+    .map{
+      width: size-m(315);
+      @media screen and (min-width: 768px) {
+        width: size(605);
+      }
+    }
+    .txt{
+      width: size-m(250);
+      margin-top: size-m(50);
+        margin-bottom: size-m(70);
+      @media screen and (min-width: 768px) {
+        width: size(1305);
+        margin-top: size(50);
+        margin-bottom: size(70);
+      }
+    }
+    .title{
+      width: size-m(250);
+      @media screen and (min-width: 768px) {
+        width: size(540);
+      }
+    }
+  }
+  
   .order-title {
     font-size: size(40);
     font-weight: 700;
@@ -451,10 +475,10 @@ const send = () => {
     letter-spacing: 0.9em;
     text-indent: 0.9em;
     color: #fff;
-    background-color: #b28146;
+    background-color: #7A272B;
     //border: 1px solid #FFF9;
     border: 0;
-    border-radius: .5em;
+    border-radius: 0;
 
     width: 308px;
     height: 3.3em;
@@ -462,7 +486,7 @@ const send = () => {
     z-index: 10;
     font-weight: 400;
     position: relative;
-    box-shadow: .2em .2em .05em #0004;
+    // box-shadow: .2em .2em .05em #0004;
   }
 
   .control {
@@ -555,5 +579,3 @@ const send = () => {
   }
 }
 </style>
-
-

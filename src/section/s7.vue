@@ -14,11 +14,11 @@ import Fullview from '../components/fullview2.vue';
           <div class="title_text_item"><img src="./s7/en_title.svg" alt="title"></div>
           <div class="title_text_item hidden md:block"><img src="./s7/cn_title.svg" alt="title"></div>
         </div>
-        <div class="cn_title block md:hidden"><img src="./s7/cn_title.svg" alt="title"></div>
+        <div class="cn_title block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="./s7/cn_title.svg" alt="title"></div>
       </div>
 
       <div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-        <p class="text-[#666]">
+        <p class="font-['Noto_Sans_TC'] text-[#666]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           麗晶建設深耕南臺灣25年，匠築25座經典建築，首度進駐屏東萬丹。<br>
           秉持三大核心理念，持續為土地注入美好人居價值：<br>
 
@@ -30,21 +30,21 @@ import Fullview from '../components/fullview2.vue';
         </p>
       </div>
       <div class="pic">
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s7/pic1.webp" alt="pic">
-          <p class="text-[#666]">業績｜晶硯</p>
+          <p class="font-['Noto_Sans_TC'] text-[#666]">業績｜晶硯</p>
         </div>
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s7/pic2.webp" alt="pic">
-          <p class="text-[#666]">業績｜圓山硯</p>
+          <p class="font-['Noto_Sans_TC'] text-[#666]">業績｜圓山硯</p>
         </div>
-        <div class="item">
+        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s7/pic3.webp" alt="pic">
-          <p class="text-[#666]">業績｜森學</p>
+          <p class="font-['Noto_Sans_TC'] text-[#666]">業績｜森學</p>
         </div>
-        <div class="item big">
+        <div class="item big" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <img src="./s7/pic4.webp" alt="pic">
-          <p class="text-[#666]">業績｜嶼BAYHAUS</p>
+          <p class="font-['Noto_Sans_TC'] text-[#666]">業績｜嶼BAYHAUS</p>
         </div>
       </div>
     </div>

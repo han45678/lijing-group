@@ -14,12 +14,12 @@ import Fullview from '../components/fullview2.vue';
           <div class="title_text_item"><img src="./s6/en_title.svg" alt="title"></div>
           <div class="title_text_item hidden md:block"><img src="./s6/cn_title.svg" alt="title"></div>
         </div>
-        <div class="cn_title block md:hidden"><img src="./s6/cn_title.svg" alt="title"></div>
+        <div class="cn_title block md:hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="./s6/cn_title.svg" alt="title"></div>
       </div>
-      <div class="text">
-        <p class="text-[#666]">林子森建築師於1983年創立「林子森建築師事務所」，迄今累積超過40年的建築實務經驗，他堅信建築須經得起時間的考驗，從設計之初即注重安全、美觀與長久價值的融合。</p>
+      <div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <p class="font-['Noto_Sans_TC'] text-[#666]">林子森建築師於1983年創立「林子森建築師事務所」，迄今累積超過40年的建築實務經驗，他堅信建築須經得起時間的考驗，從設計之初即注重安全、美觀與長久價值的融合。</p>
 
-        <p class="text-[#666]">
+        <p class="font-['Noto_Sans_TC'] text-[#666]" >
           在其專業歷程中，獲獎無數，屢獲肯定：<br>
           ·2023第十二屆高雄厝綠建築大獎--榮獲三項大獎<br>
           ·2022園冶獎（高雄市大樓建築景觀類）--榮獲兩項<br>
