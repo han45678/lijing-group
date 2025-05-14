@@ -105,14 +105,22 @@
     }
 
     p {
+
       position: absolute;
+      bottom: size-m(10);
+      right: size-m(10);
+      font-weight: 400;
+      font-size: size-m(12);
+      line-height: 1;
+      letter-spacing: size-m(0.16);
+      color: #fff;
+
+      @media screen and (min-width: 768px) {
       bottom: size(10);
       right: size(10);
-      font-weight: 400;
       font-size: size(15);
-      line-height: 1;
-      letter-spacing: size(0.16);
-      color: #fff;
+      }
+      
     }
   }
 }

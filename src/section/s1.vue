@@ -82,7 +82,7 @@
       margin-top: size-m(15);
       @media screen and (min-width: 768px) {
         max-width: size(680);
-      margin-top: size(15);
+      margin-top: size(40);
       }
     }
     .logoicon{
