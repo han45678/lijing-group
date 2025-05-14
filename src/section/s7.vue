@@ -51,6 +51,7 @@ import Fullview from '../components/fullview2.vue';
 
     <div class="big_pic">
       <img src="./s7/pic5.webp" alt="pic">
+      <p class="font-['Noto_Sans_TC'] text-[#fff]">外觀3D示意圖，僅供參考，實際以完工為主</p>
     </div>
   </article>
 </template>
@@ -191,6 +192,24 @@ import Fullview from '../components/fullview2.vue';
 
     img {
       width: 100%;
+    }
+
+    p {
+      position: absolute;
+      bottom: size-m(5);
+      right: size-m(10);
+      font-weight: 400;
+      font-size: size-m(10);
+      line-height: 1;
+      letter-spacing: size-m(0.16);
+      color: #fff;
+      z-index: 99;
+
+      @media screen and (min-width: 768px) {
+      bottom: size(10);
+      right: size(10);
+      font-size: size(15);
+      }
     }
   }
 
