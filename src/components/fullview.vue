@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/assets/style/function.scss";
 
 .viewbox {
@@ -17,7 +17,8 @@
   background: #eee;
 
   >img {
-    height: 100%;
+    height: unset;
+    width: 100%;
     max-width: unset;
     //    background:url("@/section/s3/view.jpg") 50%;
     //    background-size: 100% auto;
@@ -30,7 +31,8 @@
     height: 100%;
     overflow: hidden;
 
-    img {
+    >img {
+      width: unset;
       height: 100%;
     }
 
