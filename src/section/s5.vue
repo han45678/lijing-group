@@ -80,6 +80,7 @@ import Fullview from '../components/fullview2.vue';
 
 .s5 {
   background-color: #fff;
+  padding-top: size(150);
 
   .wrapper {
     width: 100%;

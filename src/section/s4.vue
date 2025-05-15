@@ -52,7 +52,7 @@ import Fullview from '../components/fullview2.vue';
 
     </div>
 
-    <div class="pic_content">
+    <!--div class="pic_content">
       <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img src="./s4/img01.webp" alt="pic">
         <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
@@ -61,7 +61,7 @@ import Fullview from '../components/fullview2.vue';
         <img src="./s4/img02.webp" alt="pic">
         <p class="font-['Noto_Sans_TC'] text-[#fff]">建材示意圖，僅供參考</p>
       </div>
-    </div>
+    </div-->
 
   </article>
 </template>
@@ -71,6 +71,7 @@ import Fullview from '../components/fullview2.vue';
 
 .s4 {
   background-color: #fff;
+  margin-top: size(50);
 
   .wrapper {
     width: 100%;
