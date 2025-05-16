@@ -20,11 +20,11 @@ import Fullview from '../components/fullview2.vue';
       <div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <p class="font-['Noto_Sans_TC'] text-[#666]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           麗晶建設深耕南臺灣25年，匠築25座經典建築，首度進駐屏東萬丹。<br>
-          秉持三大核心理念，持續為土地注入美好人居價值：<br>
+          秉持三大核心理念，持續為土地注入美好人居價值：<br><br>
 
-          <span>一、攜手大師級建築師與資深結構技師，嚴格把關建築安全，打造堅實信賴的居住環境。</span><br>
-          <span>二、嚴選當地最精華地段，兼顧保值潛力與生活便利。</span><br>
-          <span>三、精選安全建材，結合25年資深團隊施工經驗，堅持建築品質。</span><br>
+          <span>一、專業 × 安全<br>攜手大師級建築師與資深結構技師，以嚴謹工法層層把關，構築堅實可敬的居所安</span><br><br>
+          <span>二、精華 × 精品<br>嚴選城市精華地段，兼顧資產保值與生活機能，實現品質與便利並進的理想居所。</span><br><br>
+          <span>三、安心 × 品質<br>選用高規格安全建材，結合25年經驗團隊匠心施作，以細節淬鍊建築品質，帶來恆久安心。</span><br><br>
 
           麗晶建設堅持最嚴謹的施工標準，並提供住戶體貼的即時LINE售後服務，為這片土地帶來時尚、優雅、溫柔與安全並存的新新人居美學。
         </p>
@@ -131,7 +131,7 @@ import Fullview from '../components/fullview2.vue';
           line-height: size-m(22);
 
           @media screen and (min-width: 768px) {
-            line-height: size(52);
+            line-height: size(15);
           }
         }
       }
