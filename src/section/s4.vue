@@ -71,7 +71,7 @@ import Fullview from '../components/fullview2.vue';
 
 .s4 {
   background-color: #fff;
-  margin-top: size(50);
+  
 
   .wrapper {
     width: 100%;
