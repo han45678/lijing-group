@@ -2,7 +2,7 @@ const caseName = "麗晶ONE"
 
 export default {
     caseid: "14595822-3c40-440a-be3c-0386aadeff96",
-    case_code: "lijing-group",
+    //case_code: "lijing-group",
     address1: "接待會館",//按鈕區的--- 如空白會只呈現地址
     address2: "接待會館",//map點下確認的--- 如空白會顯示"導航地址"
     address: "萬丹 大憲街117巷·大憲街口",
